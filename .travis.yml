@@ -4,3 +4,8 @@ node_js:
   - "7"
 before_install:
   - npm install -g mocha
+deploy:
+  provider: script
+  script: bash scripts/push.sh
+  on:
+    branch: master
