@@ -1,4 +1,6 @@
-var should = require("should"); var User = function(name){
+var should = require("should"); 
+var User = function(name){
+    this.nickname = "toto";
          this.name = name; };
       describe("Checking if the user is created correctly", function(){
          it("should create the user with the correct name", function(){
