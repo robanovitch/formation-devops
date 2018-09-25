@@ -1,0 +1,3 @@
+"scripts": {
+       "test": "mocha tests"
+   }
